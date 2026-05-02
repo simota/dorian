@@ -707,6 +707,55 @@ section { position: relative; }
 }
 .install-copy p { color: var(--bone-dim); margin: 0 0 24px; }
 
+.install-steps {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 28px;
+  display: grid;
+  gap: 14px;
+}
+.install-steps li {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 14px;
+  align-items: start;
+}
+.install-steps .step-num {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--gilt-warm);
+  border: 1px solid rgba(200, 165, 88, 0.4);
+  border-radius: 50%;
+  background: rgba(200, 165, 88, 0.06);
+}
+.install-steps strong {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--bone);
+  font-size: 17px;
+  display: block;
+  margin-bottom: 2px;
+}
+.install-steps p {
+  margin: 0;
+  color: var(--bone-dim);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.phrasing-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gilt);
+  margin: 0 0 12px;
+}
+
 .phrasing {
   list-style: none;
   padding: 0;

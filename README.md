@@ -59,19 +59,39 @@ character_prompt:
 
 ## Installation
 
+Dorian is a single Claude Code skill folder. Clone it into your skills directory.
+
 ```bash
-# user-level (available across all projects)
+# User-level — available across all projects
 git clone https://github.com/simota/dorian.git ~/.claude/skills/dorian
 
-# OR project-level
+# OR project-level — scoped to one repo
 git clone https://github.com/simota/dorian.git .claude/skills/dorian
 ```
 
-Restart Claude Code (or run `/skills`) and Dorian should appear in the skill list. Activate by mentioning the skill:
+### Verify
+
+Restart Claude Code, then run `/skills` and confirm `dorian` appears in the list.
+
+### Activate
+
+Mention the skill in any of these phrasings:
 
 - "Dorian, summon a portrait of this repo."
 - "Use Dorian to review technical debt and generate a character."
 - "Run Dorian's audit-only mode against this branch."
+
+### Update
+
+```bash
+cd ~/.claude/skills/dorian && git pull
+```
+
+### Uninstall
+
+```bash
+rm -rf ~/.claude/skills/dorian
+```
 
 ## Modes
 

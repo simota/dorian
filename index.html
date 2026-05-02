@@ -237,8 +237,34 @@
           <p class="eyebrow">Installation</p>
           <h2>One folder. Drop it in.</h2>
           <p>
-            Dorian is a self-contained Claude Code skill. Clone it into your skills directory, restart Claude Code, and summon the portrait by name.
+            Dorian is a self-contained Claude Code skill. Clone it into your skills directory, restart Claude Code, and confirm it appears in <code>/skills</code>.
           </p>
+
+          <ol class="install-steps">
+            <li>
+              <span class="step-num">1</span>
+              <div>
+                <strong>Clone</strong>
+                <p>Pick user-level (all projects) or project-level (this repo only). See the snippet on the right.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">2</span>
+              <div>
+                <strong>Verify</strong>
+                <p>Restart Claude Code, then run <code>/skills</code>. <code>dorian</code> should appear in the list.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">3</span>
+              <div>
+                <strong>Summon</strong>
+                <p>Mention the skill by name to activate it.</p>
+              </div>
+            </li>
+          </ol>
+
+          <p class="phrasing-label">Activation phrasings</p>
           <ul class="phrasing">
             <li>“Dorian, summon a portrait of this repo.”</li>
             <li>“Use Dorian to review technical debt and generate a character.”</li>
@@ -248,16 +274,22 @@
 
         <div class="install-code">
           <div class="code-tabs">
-            <span class="code-tab is-active">user-level</span>
-            <span class="code-tab">project-level</span>
+            <span class="code-tab is-active">install</span>
+            <span class="code-tab">update</span>
           </div>
-<pre><code><span class="c">{/* available across all projects */}</span>
+<pre><code><span class="c"># User-level — across all projects</span>
 git clone https://github.com/simota/dorian.git \
   ~/.claude/skills/dorian
 
-<span class="c">{/* OR scope to one repo */}</span>
+<span class="c"># OR project-level — scoped to one repo</span>
 git clone https://github.com/simota/dorian.git \
-  .claude/skills/dorian</code></pre>
+  .claude/skills/dorian
+
+<span class="c"># Update later</span>
+cd ~/.claude/skills/dorian &amp;&amp; git pull
+
+<span class="c"># Uninstall</span>
+rm -rf ~/.claude/skills/dorian</code></pre>
         </div>
       </div>
     </section>
