@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dorian — Every codebase has a portrait.</title>
+  <meta name="description" content="A Claude Code skill that scans a codebase for technical debt and renders the accumulated debt as a single hidden portrait — decaying in 5 tiers from Veil to Calamity." />
+
+  <meta property="og:title" content="Dorian — Every codebase has a portrait." />
+  <meta property="og:description" content="Scan a codebase for technical debt. Render it as a hidden portrait that decays in 5 tiers. Restore it with a 1:1 refactor roadmap." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">D</span>
+        <span class="brand-name">Dorian</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#tiers">Tiers</a>
+        <a href="#what">The Bundle</a>
+        <a href="#categories">Categories</a>
+        <a href="#install">Install</a>
+        <a class="nav-cta" href="https://github.com/simota/dorian" target="_blank" rel="noopener">GitHub →</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">A Claude Code skill</p>
+          <h1 class="hero-title">
+            Every codebase<br />has a <em>portrait</em>.
+          </h1>
+          <p class="hero-lede">
+            Dorian scans a repository for technical debt and renders the accumulated debt as a single hidden portrait — a figure that decays in 5 tiers as your shortcuts, skipped tests, and aging dependencies pile up.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#install">Summon the portrait</a>
+            <a class="btn btn-ghost" href="https://github.com/simota/dorian" target="_blank" rel="noopener">View source</a>
+          </div>
+          <p class="hero-attribution">
+            <span>after Oscar Wilde,</span>
+            <em>The Picture of Dorian Gray</em>, 1890
+          </p>
+        </div>
+
+        <figure class="hero-frame" aria-label="A gilded portrait frame holding a shifting silhouette">
+          <div class="frame">
+            <div class="frame-inner">
+              <div class="portrait portrait--shift">
+                <span class="portrait-tier" data-tier="T1">Veil</span>
+                <span class="portrait-tier" data-tier="T2">Shade</span>
+                <span class="portrait-tier" data-tier="T3">Wraith</span>
+                <span class="portrait-tier" data-tier="T4">Revenant</span>
+                <span class="portrait-tier" data-tier="T5">Calamity</span>
+              </div>
+              <div class="portrait-plaque">
+                <span class="plaque-line">— a portrait of —</span>
+                <span class="plaque-name">your codebase</span>
+              </div>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- METAPHOR -->
+    <section class="passage">
+      <div class="container">
+        <blockquote class="pull-quote">
+          <p>
+            The codebase keeps shipping. Unchanged. Composed.<br />
+            Somewhere out of sight, a portrait silently absorbs<br />
+            every shortcut, every skipped test, every aging dependency.
+          </p>
+          <footer>Dorian makes that portrait visible — and tells you what to fix to restore it.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- TIERS -->
+    <section id="tiers" class="tiers">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The 5 Tiers</p>
+          <h2>Veil → Calamity</h2>
+          <p class="section-lede">
+            The tier comes from a formula, never a gut feel. As the score climbs, the portrait's silhouette, palette, and motifs decay along a canonical codex.
+          </p>
+        </div>
+
+        <ol class="tier-row">
+          <li class="tier tier--t1">
+            <div class="tier-card">
+              <span class="tier-badge">T1</span>
+              <h3>Veil</h3>
+              <p class="tier-score">score &lt; 1.0</p>
+              <p class="tier-desc">Translucent child-shadow, faint waver. A nascent codebase — the portrait reassures.</p>
+            </div>
+          </li>
+          <li class="tier tier--t2">
+            <div class="tier-card">
+              <span class="tier-badge">T2</span>
+              <h3>Shade</h3>
+              <p class="tier-score">1.0 – 2.5</p>
+              <p class="tier-desc">Half-formed humanoid in a charcoal cloak. The decay begins to take form — a polite warning.</p>
+            </div>
+          </li>
+          <li class="tier tier--t3">
+            <div class="tier-card">
+              <span class="tier-badge">T3</span>
+              <h3>Wraith</h3>
+              <p class="tier-score">2.5 – 5.0</p>
+              <p class="tier-desc">Armored revenant with verdigris and oxblood. A working system carrying real debt.</p>
+            </div>
+          </li>
+          <li class="tier tier--t4">
+            <div class="tier-card">
+              <span class="tier-badge">T4</span>
+              <h3>Revenant</h3>
+              <p class="tier-score">5.0 – 8.0</p>
+              <p class="tier-desc">Hulking cursed body, smoldering crimson cracks. Debt is bleeding into reliability.</p>
+            </div>
+          </li>
+          <li class="tier tier--t5">
+            <div class="tier-card">
+              <span class="tier-badge">T5</span>
+              <h3>Calamity</h3>
+              <p class="tier-score">&gt; 8.0</p>
+              <p class="tier-desc">Deity-class composite curse, environmental distortion. Reserved for budget conversations.</p>
+            </div>
+          </li>
+        </ol>
+
+        <p class="tier-footnote">
+          A T5 portrait is alarming by design. Dorian asks before publishing it to a shared dashboard.
+        </p>
+      </div>
+    </section>
+
+    <!-- WHAT YOU GET -->
+    <section id="what" class="bundle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The Bundle</p>
+          <h2>What one invocation returns</h2>
+          <p class="section-lede">
+            Each <code>summon</code> delivers the same four artifacts. Skipping any of them is incomplete delivery.
+          </p>
+        </div>
+
+        <div class="bundle-grid">
+          <article class="bundle-card">
+            <span class="card-num">I.</span>
+            <h3>Severity Report</h3>
+            <p>Per-category scores, total score, tier (T1–T5), and top findings — every item carries <code>path:line</code> evidence.</p>
+          </article>
+          <article class="bundle-card">
+            <span class="card-num">II.</span>
+            <h3>Portrait Spec</h3>
+            <p>Tier silhouette, the list of visible flaws, each flaw cited back to a specific debt finding. One flaw, one debt.</p>
+          </article>
+          <article class="bundle-card">
+            <span class="card-num">III.</span>
+            <h3>AI Image Prompt</h3>
+            <p>Model-agnostic positive / negative prompts and style anchors. Pass to any image model. ASCII fallback when none is wired up.</p>
+          </article>
+          <article class="bundle-card">
+            <span class="card-num">IV.</span>
+            <h3>Restoration Roadmap</h3>
+            <p>Phased refactor list — Banish → Bind → Restore. Every item names the flaw it removes, so the next snapshot visibly improves.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section id="categories" class="categories">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The Reflection</p>
+          <h2>10 categories of debt, 10 surfaces of decay</h2>
+          <p class="section-lede">
+            Every kind of debt has a corresponding mark on the portrait. The mapping is strict: no flaw on the canvas without evidence behind it.
+          </p>
+        </div>
+
+        <div class="cat-table" role="table" aria-label="Debt category to portrait surface mapping">
+          <div class="cat-head" role="row">
+            <span role="columnheader">Category</span>
+            <span role="columnheader">Portrait surface</span>
+          </div>
+          <div class="cat-row" role="row"><span role="cell">Code Smells</span><span role="cell">Body distortion</span></div>
+          <div class="cat-row" role="row"><span role="cell">Duplication</span><span role="cell">Doppelgängers, mirrored limbs</span></div>
+          <div class="cat-row" role="row"><span role="cell">Cyclomatic Complexity</span><span role="cell">Extra arms, branching tendrils</span></div>
+          <div class="cat-row" role="row"><span role="cell">Outdated Dependencies</span><span role="cell">Rusted armor, cracked weapons</span></div>
+          <div class="cat-row" role="row"><span role="cell">Test Coverage Gap</span><span role="cell">Translucent / missing body parts</span></div>
+          <div class="cat-row" role="row"><span role="cell">TODO / FIXME / HACK</span><span role="cell">Bandages, chains, gags</span></div>
+          <div class="cat-row" role="row"><span role="cell">Architectural Violations</span><span role="cell">Tumors, conjoined growth</span></div>
+          <div class="cat-row" role="row"><span role="cell">Security Debt</span><span role="cell">Toxic aura, dripping sigils</span></div>
+          <div class="cat-row" role="row"><span role="cell">Performance Hotspots</span><span role="cell">Burning / freezing limbs</span></div>
+          <div class="cat-row" role="row"><span role="cell">Documentation Gap</span><span role="cell">Eyeless face, sewn mouth</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECIPES -->
+    <section class="recipes">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Recipes</p>
+          <h2>Four ways to call Dorian</h2>
+        </div>
+
+        <div class="recipe-grid">
+          <div class="recipe">
+            <code class="recipe-name">summon</code>
+            <p>Default. Full portrait + severity report + restoration roadmap.</p>
+          </div>
+          <div class="recipe">
+            <code class="recipe-name">evolve</code>
+            <p>Diff two snapshots. Show how the portrait changed across a quarter or a refactor effort.</p>
+          </div>
+          <div class="recipe">
+            <code class="recipe-name">audit</code>
+            <p>Score only — no image. Useful as a CI gate.</p>
+          </div>
+          <div class="recipe">
+            <code class="recipe-name">restore</code>
+            <p>Roadmap only, derived from an existing portrait spec.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTALL -->
+    <section id="install" class="install">
+      <div class="container install-grid">
+        <div class="install-copy">
+          <p class="eyebrow">Installation</p>
+          <h2>One folder. Drop it in.</h2>
+          <p>
+            Dorian is a self-contained Claude Code skill. Clone it into your skills directory, restart Claude Code, and summon the portrait by name.
+          </p>
+          <ul class="phrasing">
+            <li>“Dorian, summon a portrait of this repo.”</li>
+            <li>“Run <code>dorian audit</code> against the current branch.”</li>
+            <li>“Use Dorian to compare main vs this PR.”</li>
+          </ul>
+        </div>
+
+        <div class="install-code">
+          <div class="code-tabs">
+            <span class="code-tab is-active">user-level</span>
+            <span class="code-tab">project-level</span>
+          </div>
+<pre><code><span class="c">{/* available across all projects */}</span>
+git clone https://github.com/simota/dorian.git \
+  ~/.claude/skills/dorian
+
+<span class="c">{/* OR scope to one repo */}</span>
+git clone https://github.com/simota/dorian.git \
+  .claude/skills/dorian</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRINCIPLES -->
+    <section class="principles">
+      <div class="container">
+        <div class="section-head centered">
+          <p class="eyebrow">Design Principles</p>
+          <h2>The mirror, not the trophy</h2>
+        </div>
+        <ul class="principle-list">
+          <li><strong>Detect honestly.</strong> No flaw on the portrait without <code>path:line</code> evidence behind it.</li>
+          <li><strong>Score before styling.</strong> The tier comes from a formula, never a gut feel.</li>
+          <li><strong>One flaw = one debt.</strong> Strict 1:1 mapping is what makes Dorian a diagnostic, not decorative AI art.</li>
+          <li><strong>Restoration is the goal.</strong> The portrait is a mirror; the roadmap is the point.</li>
+          <li><strong>Mythic, not comedic.</strong> Tone is gothic-serious. Humor undercuts the call to refactor.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark">D</span>
+        <span class="brand-name">Dorian</span>
+        <p class="footer-tag">A diagnostic mirror for the codebase.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Project</h4>
+        <a href="https://github.com/simota/dorian" target="_blank" rel="noopener">GitHub repository</a>
+        <a href="https://github.com/simota/dorian/blob/main/README.md" target="_blank" rel="noopener">README</a>
+        <a href="https://github.com/simota/dorian/blob/main/SKILL.md" target="_blank" rel="noopener">SKILL.md</a>
+      </div>
+      <div class="footer-links">
+        <h4>References</h4>
+        <a href="https://github.com/simota/dorian/blob/main/references/severity-rubric.md" target="_blank" rel="noopener">Severity rubric</a>
+        <a href="https://github.com/simota/dorian/blob/main/references/tier-codex.md" target="_blank" rel="noopener">Tier codex</a>
+        <a href="https://github.com/simota/dorian/blob/main/references/trait-mapping.md" target="_blank" rel="noopener">Trait mapping</a>
+      </div>
+      <div class="footer-links">
+        <h4>About</h4>
+        <a href="https://docs.anthropic.com/en/docs/claude-code" target="_blank" rel="noopener">Claude Code</a>
+        <a href="https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray" target="_blank" rel="noopener">The Picture of Dorian Gray</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>The portrait metaphor is borrowed from Oscar Wilde's <em>The Picture of Dorian Gray</em> (1890), now in the public domain.</p>
+      <p>MIT licensed.</p>
+    </div>
+  </footer>
+</body>
+</html>
