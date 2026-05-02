@@ -1,97 +1,122 @@
 # Tier Codex
 
-Canonical silhouette, palette, and motif for each of the 5 tiers. Use during the `ANTHROPOMORPHIZE` and `PROMPT` phases. The tier governs the base form; flaw surfaces from `trait-mapping.md` overlay it without replacing it.
+Canonical silhouette, palette, and motif for each of the 5 tiers. Use during the `CHARACTERIZE` and `PROMPT` phases. The tier governs the base form; flaw surfaces from `trait-mapping.md` overlay it without replacing it.
 
-The metaphor: this is the hidden portrait of the codebase — the figure that absorbs every shortcut, every aging dependency, every skipped test while the codebase keeps shipping.
+The metaphor is a fall from grace. A low-debt codebase appears as a guardian angel — luminous, watchful, protective. As debt accumulates, the figure dims, kneels, fuses with armor and decay, and ultimately corrupts into an eldritch presence. The character is never replaced across tiers; it is the *same being*, falling.
 
-## T1 — Veil
+| Arc keyword | Tier band | Mood |
+|-------------|-----------|------|
+| Grace | T1 | Luminous, hopeful, watchful |
+| Fading | T2 | Tender, weary, halo dimming |
+| Falling | T3 | Solemn, fused with steel and decay |
+| Cursed | T4 | Dread, body horror beginning |
+| Eldritch | T5 | Cosmic horror, terrain bending |
+
+## T1 — Veil  (the Guardian)
 
 - **Score**: < 1.0
-- **Silhouette**: Small child-like figure, half a head shorter than a real human, faint translucent edges
-- **Posture**: Hesitant, looking down, hands hidden
-- **Palette**: Pale ivory, faint grey-blue mist, soft moonlight backlight
-- **Motif**: A single floating ribbon or thread; the spirit barely interacts with the world
-- **Aura**: None or barely-there shimmer
-- **Environment**: Empty soft-lit space, hint of dawn
-- **Tone keywords**: nascent, fragile, hopeful, unfinished
+- **Silhouette**: A small luminous figure, slightly shorter than a human; a pair of soft, well-kept wings; a faint halo above the head; light, simple robes
+- **Posture**: Calm and watchful, hands resting open at the sides, gaze gentle and direct
+- **Palette**: Warm ivory, dawn gold, soft cream, halo with a thin warm rim-light
+- **Motif**: A single feather drifting at the figure's feet; the robe hem barely touching the ground; a small unlit lantern held loosely
+- **Aura**: Soft warm glow, breath of fresh air around the figure
+- **Environment**: Open, quiet sanctuary at first light; tall narrow windows; nothing threatening
+- **Tone keywords**: luminous, watchful, hopeful, protective
 
-> Read: a healthy young codebase. The portrait should reassure, not threaten.
+> Read: a healthy young codebase. The portrait is a guardian — the team should feel that something good is being kept safe.
 
-## T2 — Shade
+## T2 — Shade  (the Fading Angel)
 
 - **Score**: 1.0–2.5
-- **Silhouette**: Full-height humanoid, partial features formed; cloak or robe partially solid
-- **Posture**: Upright but stiff; one shoulder lower than the other
-- **Palette**: Cool greys, dusk indigo, charcoal cloak with faint silver thread
-- **Motif**: A simple staff, broken talisman, or single bandage; the decay is starting to take form
-- **Aura**: Thin smoke or vapor pooling at the feet
-- **Environment**: Twilight, indistinct ruins in the background
-- **Tone keywords**: emerging, watchful, weary
+- **Silhouette**: Full-height humanoid; one wing tattered at the edge, the other still mostly intact; halo dimmed and slightly tilted; robe heavier, partially soiled at the hem
+- **Posture**: Kneeling on one knee, or standing with one shoulder lower; the lantern is now lit but burning low
+- **Palette**: Cool ivory turning to dusk grey, muted gold halo, charcoal seeping into the robe
+- **Motif**: A single bandage on a forearm; a folded prayer or sealed scroll; the unlit feather at the feet has begun to grey
+- **Aura**: Thin smoke or vapor pooling at the feet, dimming the warm glow
+- **Environment**: Twilight cloister, indistinct ruins beginning at the periphery
+- **Tone keywords**: tender, weary, dimming, watchful
 
-> Read: an aging product with manageable debt. The portrait is a polite warning.
+> Read: an aging product with manageable debt. The portrait is an angel near the end of its watch — still recognizable, beginning to falter.
 
-## T3 — Wraith
+## T3 — Wraith  (the Fallen)
 
 - **Score**: 2.5–5.0
-- **Silhouette**: Armored revenant, fully formed, ~1.1× human height, visible weapon or relic
-- **Posture**: Combat-ready, rooted stance, one hand on weapon
-- **Palette**: Charcoal armor with verdigris, deep oxblood inner cloth, bone accents
-- **Motif**: A cracked sword, sealed prayer scrolls, lantern or eye-shaped relic; battle-scarred bearing
-- **Aura**: Visible heat-shimmer or low embers, smoke trailing from wounds
-- **Environment**: Battlefield ruin, twilight or eclipse
-- **Tone keywords**: vigilant, scarred, dignified
+- **Silhouette**: Armored revenant, ~1.1× human height; the wings have hardened into blackened blade-feathers; the halo is now a cracked iron ring; flesh and plate fused at the joints
+- **Posture**: Combat-ready, rooted stance, one hand resting on a cracked sword; the figure has stopped asking permission
+- **Palette**: Charcoal armor with verdigris, deep oxblood inner cloth, bone-white feather edges, halo iron-grey with cold light
+- **Motif**: Cracked sword, sealed prayer scrolls turned to talismans, lantern relic now burning a pale green flame; battle-scarred bearing
+- **Aura**: Visible heat-shimmer or cold embers, smoke trailing from old wounds, faint whispering pressure around the figure
+- **Environment**: Battlefield ruin, eclipse-light, twilight bleeding into dusk
+- **Tone keywords**: solemn, scarred, fallen, no-longer-asking
 
-> Read: a working production system carrying real debt. The portrait earns respect — neither cute nor catastrophic.
+> Read: a working production system carrying real debt. The character has crossed from guardian to revenant — no longer a comfort.
 
-## T4 — Revenant
+## T4 — Revenant  (the Cursed Body)
 
 - **Score**: 5.0–8.0
-- **Silhouette**: Hulking cursed body, ~1.5× human height, asymmetric build, multiple wounds
-- **Posture**: Slouched but powerful, weight uneven; one limb visibly larger than the others
-- **Palette**: Iron black, smoldering crimson cracks across the skin, sickly bile-yellow highlights
-- **Motif**: Broken multiple weapons strapped to the body; chains; multiple seals trying and failing to contain it
-- **Aura**: Heavy aura distorting nearby air; visible miasma; the ground around the figure is cracked or burning
+- **Silhouette**: Hulking cursed body, ~1.5× human height; asymmetric build; the wings are now ragged stumps or broken bone-frames; multiple mouths or wounds along the torso, breathing in unison; chains and seals trying and failing to contain the form
+- **Posture**: Slouched but powerful, weight uneven; one limb visibly larger; the head bowed under its own weight, not in repentance
+- **Palette**: Iron black, smoldering crimson cracks across the skin, sickly bile-yellow highlights, halo replaced by a dark broken crown
+- **Motif**: Broken multiple weapons strapped to the body; heavy iron chains; multiple seals torn at the edges; parasitic growths along the spine
+- **Aura**: Heavy aura distorting nearby air; visible miasma; the ground around the figure is cracked or weakly burning; faint thrum of something inside breathing
 - **Environment**: Storm-lit ruin, heavy ash falling, the architecture itself failing in the background
-- **Tone keywords**: dangerous, accumulated, restraint-failing
+- **Tone keywords**: cursed, restraint-failing, body-horror, dangerous
 
-> Read: a system where debt has begun to bleed into product reliability. The portrait should make the team feel an urgency to act, not despair.
+> Read: a system where debt has begun to bleed into reliability. The character should make the team feel urgency — not despair.
 
-## T5 — Calamity
+## T5 — Calamity  (the Eldritch)
 
 - **Score**: > 8.0
-- **Silhouette**: Deity-class composite curse, ~2–3× human height, often multiple heads or limbs, terrain-warping presence
-- **Posture**: Either enthroned or rising; the figure is the center of gravity in the image
+- **Silhouette**: Eldritch composite, ~2–3× human height; multiple heads, many mouths, too many eyes to count; the wing-frames are now coiled tendrils; the halo is a ring of broken seals torn open; the original body is barely legible inside the mass
+- **Posture**: Either enthroned or rising; the figure is the gravity well of the image — landscape collapses toward it
 - **Palette**: Void black, molten core glow, ichor green or bone white accents, environmental color drained around the figure
-- **Motif**: Crowns of broken seals, coiled chains being torn, multiple weapons fused into one weapon, eyes too many to count
+- **Motif**: Crowns of broken seals, coiled chains being torn, multiple weapons fused into one weapon, parasitic forms emerging from the body
 - **Aura**: A localized weather pattern — eternal storm, frozen sun, ash spiral; the world bends around it
-- **Environment**: The figure *is* the environment; landscape is a husk, distance falls into the figure
-- **Tone keywords**: civilization-scale, mythic, dread, irreversible-without-coordinated-action
+- **Environment**: The figure *is* the environment; landscape is a husk; distance falls into the figure
+- **Tone keywords**: civilization-scale, eldritch, dread, irreversible-without-coordinated-action
 
-> Read: a system whose debt is now an existential business risk. **Confirm with the user before publishing.** The portrait is a deliberately unsettling diagnostic — useful for budget conversations, harmful as a meme.
+> Read: a system whose debt is now an existential business risk. **Confirm with the user before publishing.** The character is a deliberately unsettling diagnostic — useful for budget conversations, harmful as a meme.
 
 ## Cross-Tier Visual Continuity
 
-The same character archetype evolves across tiers — same silhouette family, same garment vocabulary, same color anchors that darken and amplify with each tier. When using `evolve` Recipe, hold the silhouette's identity (shoulder line, mask shape, weapon type) constant and let the deformation, palette, and aura tell the change story.
+The same character archetype falls across tiers — same silhouette family, same garment vocabulary, same color anchors that *invert* and *amplify* with each tier. When comparing two snapshots (e.g. before/after a refactor effort), hold the silhouette's identity constant (shoulder line, mask shape, weapon type, wing frame) and let the deformation, palette, and aura tell the change story.
+
+The wing motif is the strongest continuity carrier:
+
+| Tier | Wings |
+|------|-------|
+| T1 | Soft, well-kept, full plumage |
+| T2 | One tattered, one intact; halo dimmed |
+| T3 | Hardened into blackened blade-feathers |
+| T4 | Ragged stumps, broken bone-frames |
+| T5 | Coiled tendrils; the original wing is lost in the mass |
 
 ## Style Anchors (Image Generation)
 
 These keywords go into every prompt regardless of tier:
 
-- `mythic gothic dark portrait`
 - `painterly`, `dramatic chiaroscuro lighting`
 - `single character, full body, three-quarter view`
-- `painted concept art`; for T1–T2 lean on `ethereal negative space` and `classical fantasy painting tradition`; for T3+ lean on `dense detailed linework` and `dark heroic fantasy illustration tradition`
+- `painted concept art`
 - `centered composition, neutral environment`, `clean background`
 
-Avoid:
+Tier-specific anchor band:
+
+| Tier band | Anchors |
+|-----------|---------|
+| T1–T2 | `celestial guardian`, `religious painting tradition`, `warm rim-light`, `ethereal negative space`, `classical fantasy painting` |
+| T3 | `dark heroic fantasy illustration`, `gothic chiaroscuro`, `armored revenant`, `cold ember lighting` |
+| T4–T5 | `gothic horror dark portrait`, `body horror`, `oppressive atmosphere`, `eldritch dread`, `dense detailed linework` |
+
+Avoid (always):
 
 - modern brand cues, photographs, generic anime moe styling, cartoon comedy
-- gore-for-gore-sake; never sexualized
+- shock-gore (severed limbs, dismemberment for shock); never sexualized; never NSFW
 - text or letters on the character (keeps the image localizable)
 
 ## Aspect Ratio and Resolution
 
-- Default: `2:3` portrait (suits a single-character full-body shot)
+- Default: `2:3` portrait (single-character full-body shot)
 - For dashboards / banners: `16:9` may be requested by the user; pad with environmental haze rather than upscaling the figure
 - Resolution: 1024×1536 baseline, 2048×3072 if the downstream image model supports it
 
@@ -100,7 +125,8 @@ Avoid:
 Before composing the prompt, verify:
 
 - [ ] Tier matches the formula in `severity-rubric.md` (no gut-feel override)
-- [ ] Silhouette family fits the tier
+- [ ] Silhouette family fits the tier band (guardian / fading / fallen / cursed / eldritch)
 - [ ] Palette anchors taken from the tier (not arbitrary)
+- [ ] Wing/halo continuity reflects the tier
 - [ ] Motif inventory drawn from this codex
 - [ ] Flaw surfaces from `trait-mapping.md` overlay without contradicting the tier
